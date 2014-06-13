@@ -24,7 +24,7 @@ Get the `tv-server` folder, and put it somewhere on the Mac. Open your favourite
 
 The terminal output will say 'open for business on port 7428'. Open your favourite browser and go to [http://localhost:7428](http://localhost:7428). You should see a message indicating that the server is set up.
 
-Now you may need to open up your Mac on the network, so that Hubot can speak to it. You can find several tutorials for doing this on the web. Once you've set this up, you'll be able to go to *http://<mac's ip address or hostname>:7428* on another computer and still see the success message.
+Now you may need to open up your Mac on the network, so that Hubot can speak to it. You can find several tutorials for doing this on the web. Once you've set this up, you'll be able to go to *http://YOUR_MACS_HOSTNAME_HERE:7428* on another computer and still see the success message.
 
 ### Step Two - Install the Hubot script
 
