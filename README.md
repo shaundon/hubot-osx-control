@@ -3,9 +3,9 @@ hubot-osx-control
 
 ## What does this do?
 
-Hubot's great. You love Hubot. But wouldn't it be awesome if you could control a Mac with him? Now you can :)
+[Hubot](https://hubot.github.com/)'s great. You love Hubot. But wouldn't it be awesome if you could control a Mac with him? Now you can :)
 
-In our office, we have a TV on our DevOps office wall connected to a Mac Mini, so we use this to make webpages open and control Spotify, all from the comfort of our Flowdock chat.
+In our office, we have a TV on our DevOps office wall connected to a Mac Mini, so we use this to make webpages open and control Spotify, all from the comfort of our [Flowdock](https://www.flowdock.com/) chat.
 
 ## How does it work?
 
@@ -22,9 +22,9 @@ You'll need the following things:
 
 Get the `tv-server` folder, and put it somewhere on the Mac. Open your favourite OS X terminal app, navigate to wherever you put the folder, then run `./start` to start the server. If you run into any problems, you probably don't have node or npm installed.
 
-The terminal output will say 'open for business on port 7428'. Open your favourite browser and go to http://localhost:7428. You should see a message indicating that the server is set up.
+The terminal output will say 'open for business on port 7428'. Open your favourite browser and go to [http://localhost:7428](http://localhost:7428). You should see a message indicating that the server is set up.
 
-Now you may need to open up your Mac on the network, so that Hubot can speak to it. You can find several tutorials for doing this on the web. Once you've set this up, you'll be able to go to http://<mac's ip address or hostname>:7428 on another computer and still see the success message.
+Now you may need to open up your Mac on the network, so that Hubot can speak to it. You can find several tutorials for doing this on the web. Once you've set this up, you'll be able to go to *http://<mac's ip address or hostname>:7428* on another computer and still see the success message.
 
 ### Step Two - Install the Hubot script
 
@@ -42,4 +42,4 @@ Rebuild and deploy your updated Hubot, and try talking to the Mac. Commands are:
 
 ## Credits
 
-
+The Spotify control is powered by https://github.com/dronir/SpotifyControl. Thanks [@dronir](https://github.com/dronir/)!
