@@ -43,3 +43,7 @@ Rebuild and deploy your updated Hubot, and try talking to the Mac. Commands are:
 ## Credits
 
 The Spotify control is powered by https://github.com/dronir/SpotifyControl. Thanks [@dronir](https://github.com/dronir/)!
+
+## Contributing
+
+I'd love contributions, feel free to create a pull request with some exciting new functionality.
