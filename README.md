@@ -38,7 +38,7 @@ Rebuild and deploy your updated Hubot, and try talking to the Mac. Commands are:
 * `hubot skype me <users>` - Starts a call with *<users>* on the Mac's Skype app. Obviously you'll need Skype installed to do this :) *<users>* is a comma separated list of usernames to call, e.g. `hubot skype me userA,userB`.
 * `hubot speak <sentence>` - Uses text to speech on the Mac to make it speak *<sentence>*.
 * `hubot spotify <command>` - Controls Spotify. You can use `hubot spotify help` to get a list of commands available.
-* `hubot party` - Starts a party! You'll need Spotify installed for this one. The Mac will open a fullscreen YouTube video of a cool light effect, and play a random party song on Spotify.
+* `hubot party` - Starts a party! You'll need Spotify installed for this one. The Mac will open a fullscreen [https://www.youtube.com/v/-2eQhhMvi-U&autoplay=1](YouTube video) of a cool light effect, and play a random party song on Spotify.
 
 ## Credits
 
