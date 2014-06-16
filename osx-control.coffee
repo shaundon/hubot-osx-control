@@ -1,11 +1,21 @@
-# Allows Hubot to message our TV and ask her to do things.
+# Description
+#   Allows Hubot to control a remote OS X machine.
+#   For this script to work, you must have a remote OS X machine
+#   running the required server (see https://github.com/shaundon/hubot-osx-control)
 #
-# hubot tv me <url>
-# hubot skype me <usernames>
-# hubot speak <sentence>
-# hubot party
-# hubot spotify <action>
+# Commands:
+#   hubot <trigger> - <what the respond trigger does>
+#   <trigger> - <what the hear trigger does>
 #
+# Notes:
+#   hubot tv me <url> - Opens a webpage in the Mac's default browser.
+#   hubot skype me <users> - Starts a skype call with <users>, where <users> is a comma separated list of usernames.
+#   hubot speak <sentence> - Uses text to speech to speak <sentence>.
+#   hubot spotify <command> - Control Spotify with the included <command>. For commands, use 'spotify help'.
+#   hubot party - Starts a party.
+#
+# Author:
+#   shaundon
 
 module.exports = (robot) ->
 
