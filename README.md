@@ -7,6 +7,14 @@ hubot-osx-control
 
 In our office, we have a TV on our DevOps office wall connected to a Mac Mini, so we use this to make webpages open and control Spotify, all from the comfort of our [Flowdock](https://www.flowdock.com/) chat.
 
+Currently, hubot-osx-control can be used to:
+
+* Control Spotify
+* Open webpages
+* Open applications with registered URI schemes
+* Initiate Skype calls (requires confirmation on the computer)
+* Start a party
+
 ## How does it work?
 
 It's super simple. Hubot sends HTTP POST requests to the Mac, which is running a simple node server. The Mac's configured to perform actions when it receives these requests.
