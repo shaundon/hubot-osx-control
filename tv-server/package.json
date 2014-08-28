@@ -1,7 +1,7 @@
 {
   "name": "marv-connection",
   "description": "Simple server to listen to requests from Marv, TagMan's Hubot.",
-  "author": "Shaun Donnelly <shaun.donnelly@ensighten.com>",
+  "author": "Shaun Donnelly <shaundonnelly@gmail.com>",
   "dependencies": {
     "express": "*",
     "open": "*",
